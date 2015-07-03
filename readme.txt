@@ -13,7 +13,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WooCommerce giveaway made easy.
 
 == Description ==
+Gift Giving is one of the best ways for marketing. This way creates good vibes and your Customers will come back more often.  
+
 WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift management easy for your woocommerce site. The plugin helps you offer free products or gifts to your customer when they purchase products at your store. WooCommerce Free Gift plugin - gives you an edge by allowing you to write your own gift conditions which gives you great control on how you want to provide gifts to your customer.
+
+**Features**  
+
+1. Gift based on single or particular product
+    - Provide gift when only one item is added to the cart.  
+    - BOGO (Buy one get one)  
+    - Buy X get Y free  
+    - Buy X get many free gifts (Y,Z...free)  
+
+2. Choose number of gifts allowed
+	- Allow 1 or N number of gifts without any problem.
+
+3. Global gifts
+	- Give gift for anything added in the cart. 
+
+4. Custom promotion message
+5. Customization and translation ready 
 
 > **A NOTE ABOUT SUPPORT:** We’re here to help troubleshoot bugs, but please don't set expectations early as the support forums at WordPress.org are only checked every two days.
 
@@ -24,9 +43,11 @@ WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift m
   – Write your own rules.  
   – Rule can be from very simple to highly complex.  
   – You can write multiple fallback condition for gifts.  
-  – If condition A isn’t fulfilled we will check for next condition and so on.  
+  – If condition A isn’t fulfilled the plugin will check for next condition and so on.  
   – Dedicated email and chat support.  
   – Access to more advance features and future updates for free.  
+
+> https://www.youtube.com/watch?v=AeXIZQysnWI
 
 > [Learn more &raquo;](http://ankitpokhrel.com.np/blog/downloads/woocommerce-multiple-free-gift-plugin-pro/ "WooCommerce Multiple Free Gift PRO")
 
@@ -44,7 +65,7 @@ WooCommerce Free Gift Plugin enables the option to provide gifts to your custome
 
 == Installation ==
 
-1. Unzip and upload the `woocommerce-free-gift-plugin` directory to the plugin directory (`/wp-content/plugins/`) or install it from `Plugins->Add New->Upload`.  
+1. Unzip and upload the `woocommerce-multiple-free-gift-plugin` directory to the plugin directory (`/wp-content/plugins/`) or install it from `Plugins->Add New->Upload`.  
 2. Activate the plugin through the `Plugins` menu in WordPress.  
 3. That's all you need to do. You will notice Woo Free Gift settings page in the admin.  
 
@@ -53,7 +74,7 @@ WooCommerce Free Gift Plugin enables the option to provide gifts to your custome
 You can add as many gifts as you want. There is no limit to this.
 
 = 2. How many gifts are allowed to select? =
-You can define how many gifts you want to allow users to select in admin settings page. Users are allowed to select 1 gift by default.
+You can define how many gifts you want to allow users to select from admin settings page. Users are allowed to select 1 gift by default.
 
 = 3. Can I provide gifts based on total quantity or price? =
 Yes but only in premium version. PRO version allows you to write your own rules. Rules can be very simple to highly complex.
