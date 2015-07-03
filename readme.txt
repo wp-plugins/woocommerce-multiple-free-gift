@@ -24,15 +24,12 @@ WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift m
     - BOGO (Buy one get one)  
     - Buy X get Y free  
     - Buy X get many free gifts (Y,Z...free)  
-
 2. Choose number of gifts allowed
 	- Allow 1 or N number of gifts without any problem.
-
 3. Global gifts
-	- Give gift for anything added in the cart. 
-
+	- Give gift for anything added in the cart. =
 4. Custom promotion message
-5. Customization and translation ready 
+5. Customization and translation ready
 
 > **A NOTE ABOUT SUPPORT:** We’re here to help troubleshoot bugs, but please don't set expectations early as the support forums at WordPress.org are only checked every two days.
 
@@ -46,8 +43,6 @@ WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift m
   – If condition A isn’t fulfilled the plugin will check for next condition and so on.  
   – Dedicated email and chat support.  
   – Access to more advance features and future updates for free.  
-
-> https://www.youtube.com/watch?v=AeXIZQysnWI
 
 > [Learn more &raquo;](http://ankitpokhrel.com.np/blog/downloads/woocommerce-multiple-free-gift-plugin-pro/ "WooCommerce Multiple Free Gift PRO")
 
