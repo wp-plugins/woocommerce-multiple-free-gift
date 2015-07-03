@@ -15,7 +15,7 @@ WooCommerce giveaway made easy.
 == Description ==
 Gift Giving is one of the best ways for marketing. This way creates good vibes and your Customers will come back more often.  
 
-WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift management easy for your woocommerce site. The plugin helps you offer free products or gifts to your customer when they purchase products at your store. WooCommerce Free Gift plugin - gives you an edge by allowing you to write your own gift conditions which gives you great control on how you want to provide gifts to your customer.
+WooCommerce Multiple Free Gift Plugin is a WordPress WooCommerce plugin that makes gift management easy for your woocommerce site. The plugin helps you offer free products or gifts to your customer when they purchase products at your store. WooCommerce Free Gift plugin - gives you an edge by allowing you to write your own gift conditions which gives you great control on how you want to provide gifts to your customer.
 
 > **A NOTE ABOUT SUPPORT:** We’re here to help troubleshoot bugs, but please don't set expectations early as the support forums at WordPress.org are only checked every two days.
 
@@ -33,7 +33,7 @@ WooCommerce Free Gift Plugin is a WordPress WooCommerce plugin that makes gift m
 > [Learn more &raquo;](http://ankitpokhrel.com.np/blog/downloads/woocommerce-multiple-free-gift-plugin-pro/ "WooCommerce Multiple Free Gift PRO")
 
 **Overview**  
-WooCommerce Free Gift Plugin enables the option to provide gifts to your customer. Gift Giving is one of the best ways for marketing. This way creates good vibes and your Customers will come back more often. With WooCommerce Free Gift Plugin you can provide gifts to your customer based on single or multiple products.
+WooCommerce Multiple Free Gift Plugin enables the option to provide gifts to your customer. Gift Giving is one of the best ways for marketing. This way creates good vibes and your Customers will come back more often. With WooCommerce Free Gift Plugin you can provide gifts to your customer based on single or multiple products.
 
 **Features**  
 
