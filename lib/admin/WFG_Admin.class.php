@@ -109,7 +109,6 @@ class WFG_Admin
 				unset( $user_criteria['_wp_http_referer'] );
 				unset( $user_criteria['_wfg_global_hidden'] );
 
-				$user_criteria['criteria-1']['condition'] = '';
 				$conditionSaved = update_option('_wfg_global_settings', $user_criteria);
 				if( $enabled || $conditionSaved ) {
 					WFG_Common_Helper::success_notice(
@@ -153,6 +152,52 @@ class WFG_Admin
 
 	public function wfg_criteria_template()
 	{
+		if( ( isset($_POST['_wfg_criteria_hidden']) && $_POST['_wfg_criteria_hidden'] == 'Y' )
+				&& wp_verify_nonce( $_POST['_wfg_criteria_nonce'], 'wfg_criteria_settings') ) {
+
+			if( isset($_POST['_wfg_criteria']) ) {
+				$user_criteria = $_POST['_wfg_criteria'];
+				foreach( $user_criteria as &$criteria ) {
+					$criteria['slug'] = sanitize_title( $criteria['name'] );
+				}
+
+				if( update_option('_wfg_criteria', $user_criteria) ) {
+					WFG_Common_Helper::success_notice(
+							WFG_Common_Helper::translate(
+									'Criteria saved successfully'
+								)
+						);
+
+					WFG_Settings_Helper::force_init();
+				} else {
+					WFG_Common_Helper::error_notice(
+						WFG_Common_Helper::translate(
+								'There was a problem. Please try again.'
+							)
+					);
+				}
+			} else {
+				if( get_option('_wfg_criteria') !== false ) {
+					if( delete_option('_wfg_criteria') ) {
+						WFG_Common_Helper::success_notice(
+							WFG_Common_Helper::translate(
+									'Criteria saved successfully'
+								)
+						);
+					}
+				} else {
+					WFG_Common_Helper::error_notice(
+						WFG_Common_Helper::translate(
+								'No criteria to save. You can add criteria by clicking <em>Add New Criteria</em> button'
+							)
+					);
+				}
+			}
+
+			//update settings
+			WFG_Settings_Helper::force_init();
+		}
+		
 		include "pages/gift_criteria.php";
 	}
 
