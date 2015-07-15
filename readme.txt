@@ -17,6 +17,8 @@ Gift Giving is one of the best ways for marketing. This way creates good vibes a
 
 WooCommerce Multiple Free Gift Plugin is a WordPress WooCommerce plugin that makes gift management easy for your woocommerce site. The plugin helps you offer free products or gifts to your customer when they purchase products at your store. WooCommerce Multiple Free Gift plugin - gives you an edge by allowing you to write your own gift conditions which gives you great control on how you want to provide gifts to your customer.
 
+> **Limited Time Offer! Get 30% release discount on [WooCommerce Multiple Free Gift Plugin PRO](http://ankitpokhrel.com.np/blog/downloads/woocommerce-multiple-free-gift-plugin-pro/ "WooCommerce Multiple Free Gift PRO") with discount code RELEASE30**
+
 > **A NOTE ABOUT SUPPORT:** We’re here to help troubleshoot bugs, but please don't set expectations early as the support forums at WordPress.org are only checked every two days.
 
 > Users looking for more timely/in-depth support and extended features are encouraged to check out [WooCommerce Multiple Free Gift Plugin PRO](http://ankitpokhrel.com.np/blog/downloads/woocommerce-multiple-free-gift-plugin-pro/ "WooCommerce Multiple Free Gift PRO").
