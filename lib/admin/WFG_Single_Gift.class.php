@@ -2,7 +2,7 @@
 /**
  * Single gift class
  *
- * @package  woocommerce-free-gift
+ * @package  woocommerce-multiple-free-gift
  * @subpackage lib
  * @author Ankit Pokhrel <info@ankitpokhrel.com.np, @ankitpokhrel>
  * @version 0.0.0
@@ -76,9 +76,9 @@ class WFG_Single_Gift
 				<label><?php echo WFG_Common_Helper::translate('Select Gift Products') ?></label>
 				<img class="help_tip" src="<?php echo WP_PLUGIN_URL  ?>/woocommerce/assets/images/help.png" height="16" width="16" data-tip="
 					<?php
-						echo WFG_Common_Helper::translate(
-							'Select single/multiple gift items you want to giveaway for free. <br/><br/>
-							Note that duplicate items are saved only once.')
+						echo WFG_Common_Helper::translate('Select single/multiple gift items you want to giveaway for free.');
+						echo '<br/><br/>';
+						echo WFG_Common_Helper::translate('Note that duplicate items are saved only once.');
 					?>" />
 			</p>
 			<div class="_wfg-repeat">

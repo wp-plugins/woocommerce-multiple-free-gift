@@ -3,7 +3,7 @@
  * Common Helper class: Contain globally required modules
  *
  * @static
- * @package  woocommerce-free-gift
+ * @package  woocommerce-multiple-free-gift
  * @subpackage lib/helpers
  * @author Ankit Pokhrel <info@ankitpokhrel.com.np, @ankitpokhrel>
  * @version 0.0.0
@@ -11,10 +11,10 @@
 class WFG_Common_Helper
 {
 	/** Current version of the plugin */
-	const VERSION = '1.0.0';
+	const VERSION = '1.0.1';
 
 	/** @var string Plugin text domain */
-	public static $textDomain = 'woocommerce-free-gift';
+	public static $textDomain = 'woocommerce-multiple-free-gift';
 
 	/**
 	 * Localize text strings
