@@ -5,8 +5,8 @@ Tags: woocommerce, woocommerce free gift, woocommerce gift management, woocommer
 Requires at least: 3.8
 Tested up to: 4.3
 WC requires at least: 2.3
-WC tested up to: 2.4
-Stable tag: 1.0.1
+WC tested up to: 2.4.6
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,8 @@ WooCommerce Multiple Free Gift Plugin enables the option to provide gifts to you
 5. Custom promotion message
 6. Customization and translation ready
 7. Loco translate compatible
+8. Aelia Currency Converter compatible
+9. Tested with over half million products
 
 **How it works?**  
 1. After successfull plugin activation go to `Woo Free Gift` settings page or product edit page.  
@@ -99,6 +101,15 @@ Please feel free to report any bug found to `info [at] ankitpokhrel.com.np`.
 5. Gifts shown in frontend.
 
 == Changelog ==
+= 1.1.0 =
+* Now works with large number of products (fixes issue #1).
+* Tested with over half million products.
+* Compatible with Aelia Currency Switcher plugin (thanks to Diego Zanella).
+* Remove the evil eval.
+* Brazilian Portugese translation (thanks to Paula Bambino).
+* Design improvements.
+* Special thanks to Cory Jeffries for his contributions.
+
 = 1.0.1 =
 * Fix issue with remove gift button on first use
 * Fix plugin text domain issue
@@ -112,6 +123,9 @@ Please feel free to report any bug found to `info [at] ankitpokhrel.com.np`.
 * Initial release.
 
 == Upgrade Notice ==
+= 1.1.0 =
+* This is a major update. Upgrade with caution.
+
 = 1.0.1 =
 * One of the library file name is changed which may cause some error. It would be better to remove previous files completely and add new one.
 
