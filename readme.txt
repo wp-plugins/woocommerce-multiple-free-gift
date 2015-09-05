@@ -93,6 +93,9 @@ If you don't receive any help in support forum then you can directly contact me 
 
 Please feel free to report any bug found to `info [at] ankitpokhrel.com.np`.
 
+**Contribute**  
+If you'd like to check out the code and contribute, join us on [Github](https://github.com/ankitpokhrel/WooCommerce-Multiple-Free-Gift/ "View this plugin in github"). Pull requests, issues, and plugin recommendations are more than welcome!
+
 == Screenshots == 
 1. Gift criteria
 2. Global gift page.
